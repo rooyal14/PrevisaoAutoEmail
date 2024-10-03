@@ -1,0 +1,16 @@
+{
+  "name": "senderemailprototype",
+  "version": "1.0.0",
+  "description": "Script para automatização do envio de emails da previsão do tempo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --env-file=.env lib/index.js"
+  },
+  "author": "Rodrigo Zwirtes",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "nodemailer": "^6.9.15"
+  }
+}
